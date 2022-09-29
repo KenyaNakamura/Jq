@@ -7,98 +7,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <title>Plofile</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <!-- header -->
     <header id="header">
-        <p class="logo"><a href="#">PROFILE</a></p>
-        <!-- レスポンシブ時のハンバーガーボタンとチェックボックス -->
-        <input type="checkbox" id="menu-btn-check">
-        <label for="menu-btn-check" class="menu-btn"><span></span></label>
-        <!-- ここからメニュー -->
-        <nav class="hamburger-menu">
-            <ul class="menu">
-                <li class="menu-top">
-                    <a href="index.html">
-                        <span class="tit"> トップ</span>
-                        <span class="en">Top</span>
-                    </a>
-                </li>
-                <li id="menu-top" class="menu-top">
-                    <a href="./service.html">
-                        <span class="tit">サービス</span>
-                        <span class="en">Service</span>
-                    </a>
-                    <ul class="eizo">
-                        <li class="anime">
-                            <a href="./service.html"> 映像制作 / アニメーション動画制作</a>
-                        </li>
-                        <li class="hp">
-                            <a href="#">
-                                ホームページ制作</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-top">
-                    <a href="./infomation.html">
-                        <span class="tit">お知らせ</span>
-                        <span class="en">information</span>
-                    </a>
-                </li>
+        <button class="hamburger">
+            <!-- <span class="hamburger_bar">a</span>
+            <span class="hamburger_bar">b</span>
+            <span class="hamburger_bar">c</span> -->
+        </button>
 
-
-                <li class="menu-top">
-                    <a href="./contact.html">
-                        <span class="tit">お問い合わせ</span>
-                        <span class="en">Contact</span>
-                    </a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#mainvisual">TOP</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#character">CHARACTER</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#story">STORY</a>
                 </li>
             </ul>
         </nav>
-        <!-- ここまでメニュー -->
     </header>
-    <!--video -->
-    <div class="mainvideo">
-        <video id="video" autoplay muted playsinline loop>
-            <source src="./assets/image/EX_01.mp4">
 
-        </video>
-    </div>
-
-
-    <!-- box -->
-    <div class="box"></div>
     <main>
+        <div id="mainvisual">
+            <img src="https://placehold.jp/900x600.png" alt="main">
+
+        </div>
         <!-- section01 -->
-        <section id="content1">
-            <div class="photo">
-                <a href="profile.html"><img src="./assets/image/profile.jpeg" alt="pic"></a>
+        <section id="character">
+            <h1>character</h1>
+
+            <div class="ellen">
+                <h2>エレン</h2>
+                <img src="https://placehold.jp/200x200.png" alt="ellen">
+                <p>テキストテキストテキストテキストテキストテキスト <br>
+                    テキストテキストテキストテキストテキストテキスト <br>
+                    テキストテキストテキストテキストテキストテキスト</p>
             </div>
-            <div class="text">
-                <h1>テキストテキスト</h1>
+            <div class="mikasa">
+                <h2>ミカサ</h2>
+                <img src="https://placehold.jp/200x200.png" alt="mikasa">
+                <p>テキストテキストテキストテキストテキストテキスト <br>
+                    テキストテキストテキストテキストテキストテキスト <br>
+                    テキストテキストテキストテキストテキストテキスト</p>
+            </div>
+            <div class="alumin">
+                <h2>アルミン</h2>
+                <img src="https://placehold.jp/200x200.png" alt="alumin">
+                <p>テキストテキストテキストテキストテキストテキスト <br>
+                    テキストテキストテキストテキストテキストテキスト <br>
+                    テキストテキストテキストテキストテキストテキスト</p>
+            </div>
+            <div class="levi">
+                <h2>リヴァイ</h2>
+                <img src="https://placehold.jp/200x200.png" alt="levi">
                 <p>テキストテキストテキストテキストテキストテキスト <br>
                     テキストテキストテキストテキストテキストテキスト <br>
                     テキストテキストテキストテキストテキストテキスト</p>
             </div>
         </section>
         <!-- section02 -->
-        <section id="content2">
-            <h2>お知らせ</h2>
-            <ol>
-                <li><a href="./infomation.html"><time datetime="2022-08-28">2022.08.28</time>お問い合わせページを追加しました。</a></li>
-                <li><a href="./infomation.html"><time datetime="2022-08-27">2022.08.27</time>プロフィールを更新しました。</a></li>
-                <li><a href="./infomation.html#part3"><time
-                            datetime="2022-08-26">2022.08.26</time>PROFILEサイトを公開しました。</a></li>
-            </ol>
-            <p class="link_contact"><a href="./contact.html">お問い合わせはこちら</a></p>
+        <section id="story">
+            <h3>STORY</h3>
+            <div class="slide-container">
+                <img src="https://placehold.jp/300x300.png" alt="pic">
+                <img src="https://placehold.jp/300x300.png" alt="pic">
+                <img src="https://placehold.jp/300x300.png" alt="pic">
+                <img src="https://placehold.jp/300x300.png" alt="pic">
+            </div>
         </section>
     </main>
+
     <!-- footer -->
     <footer>
-        <p class="footer">Coming Soon</p>
+        <p class="footer">進撃の巨人</p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src='./script.js'></script>
 </body>
 
