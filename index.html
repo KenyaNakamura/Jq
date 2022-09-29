@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Plofile</title>
 </head>
+
 <body>
-    
+    <!--     -->
+    <!-- header -->
+    <header id="header">
+        <p class="logo"><a href="#">PROFILE</a></p>
+        <!-- レスポンシブ時のハンバーガーボタンとチェックボックス -->
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <!-- ここからメニュー -->
+        <nav class="hamburger-menu">
+            <ul class="menu">
+                <li class="menu-top">
+                    <a href="index.html">
+                        <span class="tit"> トップ</span>
+                        <span class="en">Top</span>
+                    </a>
+                </li>
+                <li id="menu-top" class="menu-top">
+                    <a href="./service.html">
+                        <span class="tit">サービス</span>
+                        <span class="en">Service</span>
+                    </a>
+                    <ul class="eizo">
+                        <li class="anime">
+                            <a href="./service.html"> 映像制作 / アニメーション動画制作</a>
+                        </li>
+                        <li class="hp">
+                            <a href="#">
+                                ホームページ制作</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-top">
+                    <a href="./infomation.html">
+                        <span class="tit">お知らせ</span>
+                        <span class="en">information</span>
+                    </a>
+                </li>
+
+
+                <li class="menu-top">
+                    <a href="./contact.html">
+                        <span class="tit">お問い合わせ</span>
+                        <span class="en">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- ここまでメニュー -->
+    </header>
+    <!--video -->
+    <div class="mainvideo">
+        <video id="video" autoplay muted playsinline loop>
+            <source src="./assets/image/EX_01.mp4">
+
+        </video>
+    </div>
+
+
+    <!-- box -->
+    <div class="box"></div>
+    <main>
+        <!-- section01 -->
+        <section id="content1">
+            <div class="photo">
+                <a href="profile.html"><img src="./assets/image/profile.jpeg" alt="pic"></a>
+            </div>
+            <div class="text">
+                <h1>テキストテキスト</h1>
+                <p>テキストテキストテキストテキストテキストテキスト <br>
+                    テキストテキストテキストテキストテキストテキスト <br>
+                    テキストテキストテキストテキストテキストテキスト</p>
+            </div>
+        </section>
+        <!-- section02 -->
+        <section id="content2">
+            <h2>お知らせ</h2>
+            <ol>
+                <li><a href="./infomation.html"><time datetime="2022-08-28">2022.08.28</time>お問い合わせページを追加しました。</a></li>
+                <li><a href="./infomation.html"><time datetime="2022-08-27">2022.08.27</time>プロフィールを更新しました。</a></li>
+                <li><a href="./infomation.html#part3"><time
+                            datetime="2022-08-26">2022.08.26</time>PROFILEサイトを公開しました。</a></li>
+            </ol>
+            <p class="link_contact"><a href="./contact.html">お問い合わせはこちら</a></p>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p class="footer">Coming Soon</p>
+    </footer>
 </body>
+
 </html>
