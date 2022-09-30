@@ -38,3 +38,11 @@ h3{
     display: flex;
     text-align: center;
 }
+
+.fadein {
+  transition: all 1s ease;
+}
+.fadein.hide {
+    opacity: 0;
+    transform: translateY(100px);
+  }
