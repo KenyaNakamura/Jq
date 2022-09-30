@@ -1,0 +1,40 @@
+
+#header{
+    text-align: right;
+}
+
+#mainvisual img{
+    width: 100%;
+}
+
+#chara1{
+    margin: 100px auto;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+#story{
+    margin: 100px auto;
+
+}
+#chara1{
+    display: flex;
+    text-align: center;
+}
+#chara2{
+    display: flex;
+    text-align: center;
+}
