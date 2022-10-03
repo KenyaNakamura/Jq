@@ -48,15 +48,7 @@ $(function () {
         }
 
     })
-
-
-    $('.slide-container').slick({
-        autoplay: true, // 自動再生
-        speed: 500, // スライドさせるスピード（ミリ秒）
-        autoplaySpeed: 3000
-
-
-    });
+    
 
 
     //   ハンバーガーメニュー
