@@ -35,7 +35,7 @@ $(function () {
 
     })
     //   アルミン
-   
+
     // alumin = alumin + 250
     $(window).on('scroll', function () {
         let alumin = $('.alumin').offset().top;
@@ -52,18 +52,15 @@ $(function () {
 
     $('.slide-container').slick({
         autoplay: true, // 自動再生
-        arrows: true, // 前・次のボタンを表示する
-        dots: true, // ドットナビゲーションを表示する
-        appendDots: $('.dots-2'), // ドットナビゲーションの生成位置を変更
         speed: 500, // スライドさせるスピード（ミリ秒）
         autoplaySpeed: 3000
-       
-       
-      });
+
+
+    });
 
 
     //   ハンバーガーメニュー
-    $('.menu-trigger').on('click',function () {
+    $('.menu-trigger').on('click', function () {
         $('.menu-trigger').toggleClass('active')
     })
 
