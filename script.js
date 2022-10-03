@@ -16,9 +16,11 @@ $(function () {
 
     })
     // ハンバーガーメニュー
-    $('.hamburger').on('click', function () {
+    $('.menu-trigger').on('click', function () {
         $('.nav-list').toggleClass('is-active');
     });
+
+
 
     // リヴァイ
     $(window).on('scroll', function () {
@@ -60,6 +62,14 @@ $(function () {
       });
 
 
+    //   ハンバーガーメニュー
+    $('.menu-trigger').on('click',function () {
+        $('.menu-trigger').toggleClass('active')
+    })
 
 
 })
+
+
+// ハンバーガーメニューを押したら
+// 一つに重なる
