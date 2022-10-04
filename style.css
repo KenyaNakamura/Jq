@@ -16,7 +16,7 @@ main{
   position: relative;
   width:100%;
   height:680px;
-  margin: 50px calc(75% - 50vw);
+  
 }
 
 #mainvisual .mv-img img{
