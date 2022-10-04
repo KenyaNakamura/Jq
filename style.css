@@ -11,6 +11,24 @@ main{
   background-color: #333;
 }
 
+
+#mainvisual{
+  position: relative;
+  width:100%;
+  height:680px;
+  margin: 50px calc(75% - 50vw);
+}
+
+#mainvisual .mv-img img{
+  width:100%;
+  height:100%;
+  object-fit: cover; 
+  position:absolute
+}
+
+
+
+
 /* #header{
     text-align: right;
 } */

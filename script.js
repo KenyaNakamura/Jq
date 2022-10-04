@@ -20,6 +20,12 @@ $(function () {
         $('.nav-list').toggleClass('is-active');
     });
 
+    $('.mv-img img:nth-child(n+2)').hide();
+    setInterval(function() {
+        $(".mv-img img:first-child").fadeOut(2000);
+        $(".mv-img img:nth-child(2)").fadeIn(2000);
+        $(".mv-img img:first-child").appendTo(".mv-img");
+        }, 4000);
 
 
     // リヴァイ
@@ -59,8 +65,8 @@ $(function () {
     $('.menu-trigger').on('click', function () {
         if ($('.menu-trigger').hasClass('active')) {
             $('html').css('overflow-y', 'hidden');
-            
-        } else  {
+
+        } else {
             /*縦スクロールバーを出す*/
             $('html').css('overflow-y', 'scroll');
         }
